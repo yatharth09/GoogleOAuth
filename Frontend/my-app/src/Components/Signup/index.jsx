@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 function Signup() {
 	const googleAuth = () => {
 		window.open(
-			`http://localhost:8080/auth/google/callback`,
+			`https://google-o-auth-tau.vercel.app/auth/google/callback`,
 			"_self"
 		);
 	};
